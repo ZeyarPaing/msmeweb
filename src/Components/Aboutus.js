@@ -1,41 +1,55 @@
-import React from 'react';
-import classes from './Aboutus.module.css';
+import React from 'react'
+import classes from './Components.module.css'
 
-const Aboutus = (props) => {
-return (
-<div className={classes.aboutuscontainer}>
-<p>
-"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
-Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."
-"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
-Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."
-"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
-Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."
-"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
-Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."
-"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
-Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."
-"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
-Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."
-"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
-Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."
-"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
-Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."
-"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
-Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."
-"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
-Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."
-"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
-Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."
-"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
-Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."
-"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
-Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."
-"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
-Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."
-</p>
-</div>
-
-);
-}
-export default Aboutus;
+const Aboutus = () => (
+  <div className={classes.regrule} style={{ padding: '8rem' }}>
+    <h2>သမိုင်းအကျဉ်း</h2>
+    <ul style={{ lineHeight: '35px' }}>
+      <li>
+        နိုင်ငံစီးပွားရေး၏ အဓိကအသက်သွေးကြောဖြစ်သော SMEs များအား
+        ကူညီထောက်ပံ့အားပေးခြင်းများ ထိရောက်စွာဆောင်ရွက်နိုင်ရန်၊
+        ယှဉ်ပြိုင်နိုင်စွမ်း မြင့်မားသည့် အောင်မြင်သော
+        အသေးစားအလတ်စားလုပ်ငန်းများ ဖြစ်ပေါ်လာစေရန် နှင့်
+        အသေးစားအလတ်စားလုပ်ငန်းများမှ အကြီးစားလုပ်ငန်းများသို့ ကူးပြောင်းချဲ့ထွင်
+        လာနိုင်စေရန် ထောက်ပံ့ကူညီအားပေးခြင်းဖြင့် နိုင်ငံတော်၏ အနာဂတ်ရေရှည်
+        စီးပွားရေးကို ခိုင်မာစေရန်ရည်ရွယ်၍ (၂၉.၃.၂၀၁၂) ရက်နေ့တွင်
+        ကျင်းပပြုလုပ်သော ပြည်ထောင်စုအစိုးရအဖွဲ့ အစည်းအဝေးအမှတ်စဉ် (၁၃/၂၀၁၂)၏
+        ခွင့်ပြုချက်အရ (၄.၄.၂၀၁၂) ရက်နေ့တွင် အသေးစားနှင့်အလတ်စားလုပ်ငန်းများ
+        ဖွံ့ဖြိုးတိုးတက်ရေးဗဟိုဌာနကို တည်ထောင်ခဲ့ပြီး စက်မှုဇုန်
+        ဖွံ့ဖြိုးရေး/နည်းပညာတိုးတက်ရေးဌာန၊ ပြည်ပဆိုင်ရာ လုပ်ငန်းဌာန၊
+        ရင်းနှီးမြှုပ်နှံမှုမြှင့်တင်ရေး ဌာနဟူ၍ ဌာန(၃)ခုဖြင့်
+        ဖွဲ့စည်းဆောင်ရွက်ခဲ့ပါသည်။
+      </li>
+      <li>
+        အသေးစားနှင့်အလတ်စားလုပ်ငန်းများဖွံ့ဖြိုးတိုးတက်ရေးဌာနကို (၁.၄.၂၀၁၄)
+        ရက်နေ့တွင် စက်မှုကြီးကြပ်ရေးနှင့်စစ်ဆေးရေးဦးစီးဌာန၏ ဖွဲ့စည်းပုံအတွင်း
+        သို့ သွတ်သွင်းဖွဲ့စည်းခဲ့ပြီး မူဝါဒနှင့်ပြည်ပရေးရာဌာန၊
+        နည်းပညာနှင့်စျေးကွက်မြှင့်တင်ရေးဌာနနှင့်
+        ရင်းနှီးမြှုပ်နှံမှုနှင့်လုပ်ငန်းညှိနှိုင်းရေးဌာနဟူ၍ ဌာန(၃) ခုဖြင့်
+        ပြန်လည် ဖွဲ့စည်းခဲ့ပါသည်။
+      </li>
+      <li>
+        အသေးစားနှင့်အလတ်စားစီးပွားရေးလုပ်ငန်းများ ဖွံ့ဖြိုးတိုးတက်ရေး မူဝါဒကို
+        (၂၄. ၁၂. ၂၀၁၅) ရက်နေ့တွင်လည်းကောင်း၊ အသေးစားနှင့်အလတ်စား
+        စီးပွားရေးလုပ်ငန်းများ ဖွံ့ဖြိုးတိုးတက်ရေးဥပဒေကို (၉.၄.၂၀၁၅)
+        ရက်နေ့တွင်လည်းကောင်း၊ အသေးစားနှင့်အလတ်စားစီးပွားရေးလုပ်ငန်းများ
+        ဖွံ့ဖြိုး တိုးတက်ရေး နည်းဥပဒေကို (၁၃.၁၀.၂၀၁၆) ရက်နေ့တွင် လည်းကောင်း
+        ပြဌာန်းခဲ့ပါသည်။
+      </li>
+      <li>
+        အသေးစားနှင့်အလတ်စားစီးပွားရေးလုပ်ငန်းများ
+        ဖွံ့ဖြိုးတိုးတက်ရေးဗဟိုကော်မတီကို (၇.၆.၂၀၁၆) ရက်နေ့တွင်လည်းကောင်း၊
+        အသေးစားနှင့်အလတ်စား စီးပွားရေးလုပ်ငန်းများ
+        ဖွံ့ဖြိုးတိုးတက်ရေးလုပ်ငန်းကော်မတီကို (၂၉.၁၁.၂၀၁၇) ရက်နေ့တွင်လည်းကောင်း၊
+        အသေးစားနှင့်အလတ်စားစီးပွားရေး လုပ်ငန်းများ ဖွံ့ဖြိုးတိုးတက်ရေး
+        လုပ်ငန်းသုံးသပ်မှုအစီရင်ခံရေးအဖွဲ့၊ အသေးစားနှင့်အလတ်စား
+        စီးပွားရေးလုပ်ငန်းများ ဖွံ့ဖြိုးတိုးတက်ရေး ရန်ပုံငွေ
+        စီမံခန့်ခွဲမှုအဖွဲ့နှင့် အသေးစားနှင့်အလတ်စားစီးပွားရေး လုပ်ငန်းများ
+        ဖွံ့ဖြိုးတိုးတက်ရေးအေဂျင်စီတို့ကို (၂.၁.၂၀၁၈)ရက်နေ့တွင်လည်းကောင်း
+        ဖွဲ့စည်း၍ အသေးစားနှင့်အလတ်စား စီးပွားရေးလုပ်ငန်းများ
+        ဖွံ့ဖြိုးတိုးတက်ရေးအတွက် အကောင်အထည်ဖော်ဆောင်ရွက်လျက်ရှိပါသည်။
+      </li>
+    </ul>
+  </div>
+)
+export default Aboutus

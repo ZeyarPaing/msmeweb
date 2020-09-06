@@ -3,9 +3,10 @@ import classes from './Home.module.css'
 import { Route, Link, Switch, Redirect } from 'react-router-dom'
 import Landing from './Landing'
 import RegForm from './RegForm'
+import Inform from './Inform'
 import Navigation from '../Components/Navigation'
 import MainPage from './MainPage'
-import About from '../Components/Aboutus'
+import Aboutus from '../Components/Aboutus'
 
 import firebase from 'firebase'
 const firebaseConfig = {
@@ -58,19 +59,6 @@ class Home extends Component {
   render() {
     return (
       <React.Fragment>
-        {/* <div style={{width:this.state.overlaywidth + '%'}} className={classes.overlay}>
-
-  <span className={classes.closebtn} onClick={this.closeOverlay}>&times;</span>
-  <div className={classes.overlaycontent}>
-    <ul>
-        <li onClick={this.closeOverlay}><Link to="/dashboard">Dashboard</Link></li>
-        <li onClick={this.closeOverlay}><Link to="/about">About Us</Link></li>
-        <li onClick={this.closeOverlay}><Link to="/contact">Contact Us</Link></li>
-        {this.state.loggedin?<li onClick={this.singOutUser}><Link >Sign Out</Link></li>:null}
-     </ul>
-  </div>
-</div> */}
-
         <div>
           <Navigation
             authState={{
@@ -78,18 +66,6 @@ class Home extends Component {
               signout: this.singOutUser,
             }}
           />
-          {/* <div className={classes.navbarcontainer}>
-        <div  className={classes.logocol} ><Link to="/about"><img src={logo} alt="companay-logo" width="30" height="30" /><span>tradinghigh.local</span></Link></div>
-        <div  className={classes.navlist}>
-            <ul>
-                <li><Link to="/dashboard">Dashboard</Link></li>
-                <li><Link to="/about">About Us</Link></li>
-                <li><Link to="/contact">Contact Us</Link></li>
-                {this.state.loggedin?<li onClick={this.singOutUser}><Link >Sign Out</Link></li>:null}
-            </ul>
-        </div>
-        <span className={classes.hamburger} onClick={this.openOverlay}>&#9776;</span>
-    </div> */}
           <div className={classes.contentcontainer}>
             <Switch>
               <Route
@@ -113,7 +89,7 @@ class Home extends Component {
                 )}
               />
               <Route
-                path="/dashboard"
+                path="/regform"
                 exact
                 render={() => (
                   <RegForm
@@ -122,7 +98,12 @@ class Home extends Component {
                   />
                 )}
               />
-              <Route path="/about" exact render={() => <About />} />
+              <Route
+                path="/register"
+                exact
+                render={() => <Inform loggedin={this.state.loggedin} />}
+              />
+              <Route path="/about" exact render={() => <Aboutus />} />
             </Switch>
           </div>
         </div>

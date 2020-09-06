@@ -74,7 +74,7 @@ const Navigation = (props) => {
                   </NavLink>
                 </DropdownItem>
                 <DropdownItem>
-                  <NavLink href="/regrule">
+                  <NavLink href="/register">
                     <span style={{ color: 'black' }}>
                       မှတ်ပုံတင်ရန် လိုက်နာရမည့် သတ်မှတ်ချက်များ
                     </span>

@@ -71,3 +71,28 @@
 		padding:2.5% 200px;
 	}
 }
+
+.backdrop {
+	background-color: #fff;
+	width: 80%;
+	margin: 7rem auto 3rem;
+	border-radius: 7px;
+}
+.bg {
+	background-color: #e6e6e6;
+}
+
+.bg form {
+	text-align: right;
+	padding: 20px 10% 50px;
+}
+
+.bg form button{
+	padding: 5px 30px;
+	float: right;
+}
+
+.bg form .backbtn{
+	float: left;
+}
+

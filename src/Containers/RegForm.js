@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import firebase from 'firebase'
 import StyledFirebaseAuth from 'react-firebaseui/StyledFirebaseAuth'
 import classes from './Dashboard.module.css'
+import Form1 from '../Components/FormComponents/Form1'
+import { Button } from 'reactstrap'
 
 const uiConfig = {
   callbacks: {
@@ -37,22 +39,58 @@ const uiConfig = {
   // Other config options...
 }
 class RegForm extends Component {
+  formData = [
+    <Form1 />,
+    <React.Fragment />,
+    <React.Fragment />,
+    <React.Fragment />,
+    <React.Fragment />,
+    <React.Fragment />,
+    <React.Fragment />,
+    <React.Fragment />,
+    <React.Fragment />,
+  ]
+
+  state = {
+    position: 0,
+  }
+
+  currentForm = this.formData[this.state.position]
+
   render() {
     return (
-      <div className={classes.contentwrapper}>
+      <div
+        className={classes.contentwrapper}
+        style={
+          this.props.loggedin ? { padding: '5rem 0' } : { padding: '10rem 0' }
+        }
+      >
         {this.props.loading ? (
           <p>Loading..</p>
         ) : !this.props.loggedin ? (
           <React.Fragment>
-            <p>မှတ်ပုံတင်လျှောက်ထားရန် Sign-in ဝင်ပါ</p>
+            <h2 className={classes.header}>
+              မှတ်ပုံတင်လျှောက်ထားရန် အကောင့်ဝင်ရန်လိုအပ်သည်
+            </h2>
+            <p>အောက်ပါတို့မှ တစ်ခုခုဖြင့် အကောင့်ဝင်ပါ။</p>
             <StyledFirebaseAuth
               uiConfig={uiConfig}
               firebaseAuth={firebase.auth()}
-              className={classes.emailbox}
+              className={classes.authbox}
             />
           </React.Fragment>
         ) : (
-          <p>Private stuff here !</p>
+          <div className={classes.formwrapper}>
+            {this.formData[this.state.position]}
+            <div className={classes.btngp}>
+              <Button color="primary" outline className={classes.backbtn}>
+                နောက်သို့
+              </Button>
+              <Button color="primary" type="submit">
+                ရှေ့သို့
+              </Button>
+            </div>
+          </div>
         )}
       </div>
     )

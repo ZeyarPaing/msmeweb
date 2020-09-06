@@ -1,0 +1,58 @@
+.regrule {
+	text-align: left;
+	padding: 40px 50px;
+}
+
+.regrule h2 {
+	font-weight: bold;
+	font-size: 24px;
+	padding: 5px 0;
+}
+
+.regrule ul {
+	line-height: 32px;
+	font-size: 19px;
+}
+
+.regrule div img{
+	width: 100%;
+}
+.header {
+	font-weight: bold;
+	font-size: 27px;
+	padding-bottom: 20px;
+}
+.formback {
+	background-color: #fff;
+	border-radius: 8px;
+	width: 90%;
+	margin: 3rem auto;
+	box-shadow: 0px 2px 10px rgba(51, 51, 51, 0.199);
+	padding: 3rem 4rem;
+	text-align: left;
+}
+.formback .inputsec {
+	margin: 20px 0;
+}
+
+.input {
+	border: 1px solid #777777;
+	border-radius: 7px;
+	padding:1rem 2rem;
+	transition: .3s ease-in;
+	margin: 20px 0;
+}
+.input header{
+	font-size: 20px;
+	margin: 10px 0;
+}
+.input p{
+	color: red;
+	transition: .3s ease-out;
+}
+.input input{
+	padding: 10px 40px 10px 20px;
+	border-radius: 5px;
+	border: 1px solid;
+	border-color: #777777d8;
+}

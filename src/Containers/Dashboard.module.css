@@ -1,7 +1,31 @@
 .contentwrapper{
-    display: grid;
-    align-self: center;
-    justify-self: center;
-    grid-template-columns: 1fr;
-    grid-template-rows:auto;
+	padding: 10rem 0;
+}
+.header {
+	font-size: 25px;
+	font-weight: bold;
+	color: #0B0B74;
+}
+
+.‌authbox {
+	padding: 2rem 0;
+}
+
+.formwrapper {
+	display: block;
+	position: static;
+	background-color: #f0f0f0;
+	padding: 4rem 1rem 10rem;
+	margin: -20px 0 0;
+}
+
+.btngp{
+		padding: 4rem;
+}
+.formwrapper button {
+	float:right;
+	padding: 10px 30px;
+}
+.backbtn{
+	float:left !important;
 }

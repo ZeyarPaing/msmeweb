@@ -1,0 +1,73 @@
+.assetImg {
+	padding-top: 50px;
+	width: 50%;
+}
+
+.mainContain {
+	background: #0B0B74;
+	background-position: center;
+	background-size: contain;
+	padding: 8.5rem 0 5.5rem 0;
+}
+
+.promotext {
+	color: #fff;
+	padding: 30px;
+}
+
+@media screen and (min-width: 990px){
+	.promotext {
+		text-align: left;
+		padding:10% 0;
+	}
+}
+.promotext p {
+	padding: 10px 0;
+} 
+.promotext h1 {
+	font-size: 3.5rem;
+	font-weight: bold;
+	display: inline-block;
+}
+.promotext img{
+	width: 40px;
+	margin: -25px 0 0 20px;
+}
+.promotext .sologan{
+	padding: 20px 10px 10px 0;
+	line-height: 36px;
+	font-size: 20px;
+}
+.promotext button {
+	margin: 10px 10px 10px 0;
+	padding: 10px 15px;
+}
+
+.block {
+	display: block;
+}
+
+.incentive {
+	padding: 30px 50px;
+}
+.incentive h2{
+	font-weight: bold;
+	padding-top: 40px;
+}
+.incentive p{
+	font-size: 22px;
+	padding: 15px 0px;
+	line-height: 40px;
+}
+.incentive p ul {
+	text-align: left;
+}
+.incentive p ul li{
+	margin: 7px 0;
+}
+@media screen and (min-width: 990px){
+	.incentive {
+		text-align: left;
+		padding:2.5% 200px;
+	}
+}

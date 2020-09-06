@@ -1,0 +1,24 @@
+.link {
+  color: #fff;
+  padding-left: 7px;
+}
+.link:hover {
+  color: rgb(224, 230, 235);
+}
+
+.navbrand {
+  padding: 0 40px 0 20px;
+  margin-right: 20px;
+}
+
+@media screen and (min-width: 990px) {
+  .navbrand {
+    border-right: 1px solid #ddd;
+  }
+}
+
+.navb {
+  width: 100%;
+  position: fixed !important;
+  z-index: 100;
+}

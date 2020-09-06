@@ -1,1 +1,1 @@
-Active Demo here bit.ly/teamjezz.  Project is not done yet.
+Active Demo [Here](https://bit.ly/teamjezz).
